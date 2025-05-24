@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="454pt" height="126pt" viewBox="0.00 0.00 454.29 126.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 122)">
+<title>Contatos_Schema</title>
+<polygon fill="#f8f8f8" stroke="none" points="-4,4 -4,-122 450.29,-122 450.29,4 -4,4"/>
+<!-- Pessoa -->
+<g id="node1" class="node">
+<title>Pessoa</title>
+<path fill="#e6f7ff" stroke="#333333" stroke-width="1.5" d="M434.29,-96C434.29,-96 308.91,-96 308.91,-96 302.91,-96 296.91,-90 296.91,-84 296.91,-84 296.91,-34 296.91,-34 296.91,-28 302.91,-22 308.91,-22 308.91,-22 434.29,-22 434.29,-22 440.29,-22 446.29,-28 446.29,-34 446.29,-34 446.29,-84 446.29,-84 446.29,-90 440.29,-96 434.29,-96"/>
+<polygon fill="#add8e6" stroke="none" points="304.91,-70 304.91,-92 438.29,-92 438.29,-70 304.91,-70"/>
+<polygon fill="none" stroke="#333333" points="304.91,-70 304.91,-92 438.29,-92 438.29,-70 304.91,-70"/>
+<text text-anchor="start" x="354.09" y="-79" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.00">Pessoa</text>
+<polygon fill="#e0ffff" stroke="none" points="304.91,-48 304.91,-70 356.05,-70 356.05,-48 304.91,-48"/>
+<polygon fill="none" stroke="#333333" points="304.91,-48 304.91,-70 356.05,-70 356.05,-48 304.91,-48"/>
+<text text-anchor="start" x="309.91" y="-56" font-family="Helvetica,sans-Serif" font-size="10.00">idPessoa</text>
+<polygon fill="none" stroke="#333333" points="356.05,-48 356.05,-70 438.29,-70 438.29,-48 356.05,-48"/>
+<text text-anchor="start" x="361.05" y="-56" font-family="Helvetica,sans-Serif" font-size="10.00">CHAR(3)</text>
+<polygon fill="none" stroke="#333333" points="304.91,-26 304.91,-48 356.05,-48 356.05,-26 304.91,-26"/>
+<text text-anchor="start" x="317.98" y="-34" font-family="Helvetica,sans-Serif" font-size="10.00">nome</text>
+<polygon fill="none" stroke="#333333" points="356.05,-26 356.05,-48 438.29,-48 438.29,-26 356.05,-26"/>
+<text text-anchor="start" x="361.05" y="-34" font-family="Helvetica,sans-Serif" font-size="10.00">VARCHAR(150)</text>
+</g>
+<!-- Contato -->
+<g id="node2" class="node">
+<title>Contato</title>
+<path fill="#fff2e6" stroke="#333333" stroke-width="1.5" d="M147.39,-118C147.39,-118 12,-118 12,-118 6,-118 0,-112 0,-106 0,-106 0,-12 0,-12 0,-6 6,0 12,0 12,0 147.39,0 147.39,0 153.39,0 159.39,-6 159.39,-12 159.39,-12 159.39,-106 159.39,-106 159.39,-112 153.39,-118 147.39,-118"/>
+<polygon fill="#add8e6" stroke="none" points="8,-92 8,-114 151.39,-114 151.39,-92 8,-92"/>
+<polygon fill="none" stroke="#333333" points="8,-92 8,-114 151.39,-114 151.39,-92 8,-92"/>
+<text text-anchor="start" x="60.81" y="-101" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.00">Contato</text>
+<polygon fill="#e0ffff" stroke="none" points="8,-70 8,-92 69.15,-92 69.15,-70 8,-70"/>
+<polygon fill="none" stroke="#333333" points="8,-70 8,-92 69.15,-92 69.15,-70 8,-70"/>
+<text text-anchor="start" x="17.17" y="-78" font-family="Helvetica,sans-Serif" font-size="10.00">idContato</text>
+<polygon fill="none" stroke="#333333" points="69.15,-70 69.15,-92 151.39,-92 151.39,-70 69.15,-70"/>
+<text text-anchor="start" x="74.15" y="-78" font-family="Helvetica,sans-Serif" font-size="10.00">CHAR(3)</text>
+<polygon fill="#e0ffff" stroke="none" points="8,-48 8,-70 69.15,-70 69.15,-48 8,-48"/>
+<polygon fill="none" stroke="#333333" points="8,-48 8,-70 69.15,-70 69.15,-48 8,-48"/>
+<text text-anchor="start" x="18" y="-56" font-family="Helvetica,sans-Serif" font-size="10.00">idPessoa</text>
+<polygon fill="none" stroke="#333333" points="69.15,-48 69.15,-70 151.39,-70 151.39,-48 69.15,-48"/>
+<text text-anchor="start" x="74.15" y="-56" font-family="Helvetica,sans-Serif" font-size="10.00">CHAR(3)</text>
+<polygon fill="none" stroke="#333333" points="8,-26 8,-48 69.15,-48 69.15,-26 8,-26"/>
+<text text-anchor="start" x="22.17" y="-34" font-family="Helvetica,sans-Serif" font-size="10.00">contato</text>
+<polygon fill="none" stroke="#333333" points="69.15,-26 69.15,-48 151.39,-48 151.39,-26 69.15,-26"/>
+<text text-anchor="start" x="74.15" y="-34" font-family="Helvetica,sans-Serif" font-size="10.00">VARCHAR(100)</text>
+<polygon fill="none" stroke="#333333" points="8,-4 8,-26 69.15,-26 69.15,-4 8,-4"/>
+<text text-anchor="start" x="13" y="-12" font-family="Helvetica,sans-Serif" font-size="10.00">tipoContato</text>
+<polygon fill="none" stroke="#333333" points="69.15,-4 69.15,-26 151.39,-26 151.39,-4 69.15,-4"/>
+<text text-anchor="start" x="74.15" y="-12" font-family="Helvetica,sans-Serif" font-size="10.00">ENUM('T', 'E')</text>
+</g>
+<!-- Contato&#45;&gt;Pessoa -->
+<g id="edge1" class="edge">
+<title>Contato:idPessoa-&gt;Pessoa:idPessoa</title>
+<path fill="none" stroke="#666666" d="M68.99,-59C68.99,-59 295.98,-59 295.98,-59"/>
+<polygon fill="#666666" stroke="#666666" points="303.98,-59 295.98,-62.6 301.2,-59 295.98,-59 295.98,-59 295.98,-59 301.2,-59 295.98,-55.4 303.98,-59"/>
+<text text-anchor="middle" x="228.15" y="-61.7" font-family="Helvetica,sans-Serif" font-size="9.00">  FK_Pessoa</text>
+</g>
+</g>
+</svg>

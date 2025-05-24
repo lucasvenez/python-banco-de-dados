@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="434pt" height="258pt" viewBox="0.00 0.00 434.11 258.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 254)">
+<title>VENDAS_Schema</title>
+<polygon fill="#f8f8f8" stroke="none" points="-4,4 -4,-254 430.11,-254 430.11,4 -4,4"/>
+<!-- Venda -->
+<g id="node1" class="node">
+<title>Venda</title>
+<path fill="#e6f7ff" stroke="#333333" stroke-width="1.5" d="M412.43,-250C412.43,-250 288.73,-250 288.73,-250 282.73,-250 276.73,-244 276.73,-238 276.73,-238 276.73,-166 276.73,-166 276.73,-160 282.73,-154 288.73,-154 288.73,-154 412.43,-154 412.43,-154 418.43,-154 424.43,-160 424.43,-166 424.43,-166 424.43,-238 424.43,-238 424.43,-244 418.43,-250 412.43,-250"/>
+<polygon fill="#add8e6" stroke="none" points="284.73,-224 284.73,-246 416.43,-246 416.43,-224 284.73,-224"/>
+<polygon fill="none" stroke="#333333" points="284.73,-224 284.73,-246 416.43,-246 416.43,-224 284.73,-224"/>
+<text text-anchor="start" x="335.58" y="-233" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.00">Venda</text>
+<polygon fill="#e0ffff" stroke="none" points="284.73,-202 284.73,-224 355.88,-224 355.88,-202 284.73,-202"/>
+<polygon fill="none" stroke="#333333" points="284.73,-202 284.73,-224 355.88,-224 355.88,-202 284.73,-202"/>
+<text text-anchor="start" x="301.95" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">idVenda</text>
+<polygon fill="none" stroke="#333333" points="355.88,-202 355.88,-224 416.43,-224 416.43,-202 355.88,-202"/>
+<text text-anchor="start" x="360.88" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">CHAR(4)</text>
+<polygon fill="none" stroke="#333333" points="284.73,-180 284.73,-202 355.88,-202 355.88,-180 284.73,-180"/>
+<text text-anchor="start" x="299.74" y="-188" font-family="Helvetica,sans-Serif" font-size="10.00">dataHora</text>
+<polygon fill="none" stroke="#333333" points="355.88,-180 355.88,-202 416.43,-202 416.43,-180 355.88,-180"/>
+<text text-anchor="start" x="360.88" y="-188" font-family="Helvetica,sans-Serif" font-size="10.00">DATETIME</text>
+<polygon fill="none" stroke="#333333" points="284.73,-158 284.73,-180 355.88,-180 355.88,-158 284.73,-158"/>
+<text text-anchor="start" x="289.73" y="-166" font-family="Helvetica,sans-Serif" font-size="10.00">taxaDesconto</text>
+<polygon fill="none" stroke="#333333" points="355.88,-158 355.88,-180 416.43,-180 416.43,-158 355.88,-158"/>
+<text text-anchor="start" x="360.88" y="-166" font-family="Helvetica,sans-Serif" font-size="10.00">FLOAT</text>
+</g>
+<!-- Produto -->
+<g id="node2" class="node">
+<title>Produto</title>
+<path fill="#fff2e6" stroke="#333333" stroke-width="1.5" d="M414.11,-96C414.11,-96 287.06,-96 287.06,-96 281.06,-96 275.06,-90 275.06,-84 275.06,-84 275.06,-12 275.06,-12 275.06,-6 281.06,0 287.06,0 287.06,0 414.11,0 414.11,0 420.11,0 426.11,-6 426.11,-12 426.11,-12 426.11,-84 426.11,-84 426.11,-90 420.11,-96 414.11,-96"/>
+<polygon fill="#add8e6" stroke="none" points="283.06,-70 283.06,-92 418.11,-92 418.11,-70 283.06,-70"/>
+<polygon fill="none" stroke="#333333" points="283.06,-70 283.06,-92 418.11,-92 418.11,-70 283.06,-70"/>
+<text text-anchor="start" x="331.42" y="-79" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.00">Produto</text>
+<polygon fill="#e0ffff" stroke="none" points="283.06,-48 283.06,-70 335.87,-70 335.87,-48 283.06,-48"/>
+<polygon fill="none" stroke="#333333" points="283.06,-48 283.06,-70 335.87,-70 335.87,-48 283.06,-48"/>
+<text text-anchor="start" x="288.06" y="-56" font-family="Helvetica,sans-Serif" font-size="10.00">idProduto</text>
+<polygon fill="none" stroke="#333333" points="335.87,-48 335.87,-70 418.11,-70 418.11,-48 335.87,-48"/>
+<text text-anchor="start" x="340.87" y="-56" font-family="Helvetica,sans-Serif" font-size="10.00">CHAR(4)</text>
+<polygon fill="none" stroke="#333333" points="283.06,-26 283.06,-48 335.87,-48 335.87,-26 283.06,-26"/>
+<text text-anchor="start" x="288.06" y="-34" font-family="Helvetica,sans-Serif" font-size="10.00">descricao</text>
+<polygon fill="none" stroke="#333333" points="335.87,-26 335.87,-48 418.11,-48 418.11,-26 335.87,-26"/>
+<text text-anchor="start" x="340.87" y="-34" font-family="Helvetica,sans-Serif" font-size="10.00">VARCHAR(200)</text>
+<polygon fill="none" stroke="#333333" points="283.06,-4 283.06,-26 335.87,-26 335.87,-4 283.06,-4"/>
+<text text-anchor="start" x="296.95" y="-12" font-family="Helvetica,sans-Serif" font-size="10.00">preco</text>
+<polygon fill="none" stroke="#333333" points="335.87,-4 335.87,-26 418.11,-26 418.11,-4 335.87,-4"/>
+<text text-anchor="start" x="340.87" y="-12" font-family="Helvetica,sans-Serif" font-size="10.00">FLOAT</text>
+</g>
+<!-- ItemVenda -->
+<g id="node3" class="node">
+<title>ItemVenda</title>
+<path fill="#e6ffed" stroke="#333333" stroke-width="1.5" d="M124.03,-206C124.03,-206 12,-206 12,-206 6,-206 0,-200 0,-194 0,-194 0,-78 0,-78 0,-72 6,-66 12,-66 12,-66 124.03,-66 124.03,-66 130.03,-66 136.03,-72 136.03,-78 136.03,-78 136.03,-194 136.03,-194 136.03,-200 130.03,-206 124.03,-206"/>
+<polygon fill="#add8e6" stroke="none" points="8,-180 8,-202 128.03,-202 128.03,-180 8,-180"/>
+<polygon fill="none" stroke="#333333" points="8,-180 8,-202 128.03,-202 128.03,-180 8,-180"/>
+<text text-anchor="start" x="42.73" y="-189" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.00">ItemVenda</text>
+<polygon fill="#e0ffff" stroke="none" points="8,-158 8,-180 77.47,-180 77.47,-158 8,-158"/>
+<polygon fill="none" stroke="#333333" points="8,-158 8,-180 77.47,-180 77.47,-158 8,-158"/>
+<text text-anchor="start" x="14.66" y="-166" font-family="Helvetica,sans-Serif" font-size="10.00">idItemVenda</text>
+<polygon fill="none" stroke="#333333" points="77.47,-158 77.47,-180 128.03,-180 128.03,-158 77.47,-158"/>
+<text text-anchor="start" x="82.47" y="-166" font-family="Helvetica,sans-Serif" font-size="10.00">CHAR(4)</text>
+<polygon fill="#e0ffff" stroke="none" points="8,-136 8,-158 77.47,-158 77.47,-136 8,-136"/>
+<polygon fill="none" stroke="#333333" points="8,-136 8,-158 77.47,-158 77.47,-136 8,-136"/>
+<text text-anchor="start" x="24.39" y="-144" font-family="Helvetica,sans-Serif" font-size="10.00">idVenda</text>
+<polygon fill="none" stroke="#333333" points="77.47,-136 77.47,-158 128.03,-158 128.03,-136 77.47,-136"/>
+<text text-anchor="start" x="82.47" y="-144" font-family="Helvetica,sans-Serif" font-size="10.00">CHAR(4)</text>
+<polygon fill="#e0ffff" stroke="none" points="8,-114 8,-136 77.47,-136 77.47,-114 8,-114"/>
+<polygon fill="none" stroke="#333333" points="8,-114 8,-136 77.47,-136 77.47,-114 8,-114"/>
+<text text-anchor="start" x="21.33" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00">idProduto</text>
+<polygon fill="none" stroke="#333333" points="77.47,-114 77.47,-136 128.03,-136 128.03,-114 77.47,-114"/>
+<text text-anchor="start" x="82.47" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00">CHAR(4)</text>
+<polygon fill="none" stroke="#333333" points="8,-92 8,-114 77.47,-114 77.47,-92 8,-92"/>
+<text text-anchor="start" x="17.99" y="-100" font-family="Helvetica,sans-Serif" font-size="10.00">quantidade</text>
+<polygon fill="none" stroke="#333333" points="77.47,-92 77.47,-114 128.03,-114 128.03,-92 77.47,-92"/>
+<text text-anchor="start" x="82.47" y="-100" font-family="Helvetica,sans-Serif" font-size="10.00">INT</text>
+<polygon fill="none" stroke="#333333" points="8,-70 8,-92 77.47,-92 77.47,-70 8,-70"/>
+<text text-anchor="start" x="13" y="-78" font-family="Helvetica,sans-Serif" font-size="10.00">precoUnitario</text>
+<polygon fill="none" stroke="#333333" points="77.47,-70 77.47,-92 128.03,-92 128.03,-70 77.47,-70"/>
+<text text-anchor="start" x="82.47" y="-78" font-family="Helvetica,sans-Serif" font-size="10.00">FLOAT</text>
+</g>
+<!-- ItemVenda&#45;&gt;Venda -->
+<g id="edge1" class="edge">
+<title>ItemVenda:idVenda-&gt;Venda:idVenda</title>
+<path fill="none" stroke="#666666" d="M42.79,-180C42.79,-180 311.04,-180 311.04,-180"/>
+<polygon fill="#666666" stroke="#666666" points="319.04,-180 311.04,-183.6 316.25,-180 311.04,-180 311.04,-180 311.04,-180 316.25,-180 311.04,-176.4 319.04,-180"/>
+<text text-anchor="middle" x="205.54" y="-215.7" font-family="Helvetica,sans-Serif" font-size="9.00">  FK_Venda</text>
+</g>
+<!-- ItemVenda&#45;&gt;Produto -->
+<g id="edge2" class="edge">
+<title>ItemVenda:idProduto-&gt;Produto:idProduto</title>
+<path fill="none" stroke="#666666" d="M42.78,-81C42.78,-81 300.2,-81 300.2,-81"/>
+<polygon fill="#666666" stroke="#666666" points="308.2,-81 300.2,-84.6 305.41,-81 300.2,-81 300.2,-81 300.2,-81 305.41,-81 300.2,-77.4 308.2,-81"/>
+<text text-anchor="middle" x="205.54" y="-61.7" font-family="Helvetica,sans-Serif" font-size="9.00">  FK_Produto</text>
+</g>
+</g>
+</svg>
