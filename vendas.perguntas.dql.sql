@@ -27,7 +27,7 @@ WHERE taxaDesconto > 0.00;
 -- SOLUÇÃO COM SUB CONSULTAS
 -- --------------------------------------
 
-SELECT SD.*
+SELECT *
 FROM
     (SELECT COUNT(*) AS 'SEM' FROM Venda WHERE taxaDesconto = 0) AS SD,
     (SELECT COUNT(*) AS 'COM' FROM Venda WHERE taxaDesconto > 0) AS CD;
@@ -75,3 +75,26 @@ SELECT
 FROM 
     Venda AS V INNER JOIN 
     ItemVenda AS I ON (V.idVenda = I.idVenda)
+
+
+-- SELECT idVenda
+--FROM venda
+--WHERE DAY(dataHora) = 22;
+
+SELECT idVenda
+FROM Venda
+WHERE idVenda IN (SELECT idVenda FROM Venda WHERE DAY(dataHora) > 21 )
+INTERSECT
+SELECT idVenda
+FROM Venda
+WHERE idVenda IN (SELECT idVenda FROM Venda WHERE DAY(dataHora ) < 23 );
+
+-- Sub-consulta avançada
+SELECT *
+FROM Venda as V
+WHERE (SELECT COUNT(*) FROM ItemVenda AS IT WHERE V.idVenda = IT.idVenda) > 3
+
+SELECT V.idVenda, COUNT(IT.idItemVenda) AS quantidadeItens
+FROM Venda AS V INNER JOIN ItemVenda AS IT USING(idVenda)
+GROUP BY V.idVenda
+HAVING quantidadeItens > 3;
